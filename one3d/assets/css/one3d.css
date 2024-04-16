@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+.buttonGroup{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+}
+
+#interiorView{
+    
+    
+    padding: 8px 20px;
+    outline: none;
+    background: #eb0101;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#interiorView:hover{
+  background-color:#eb0101a6;
+}
+
+#exteriorView{
+
+  padding: 8px 20px;
+  outline: none;
+  background: #eb0101;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#backseatView{
+
+  padding: 8px 20px;
+  outline: none;
+  background: #eb0101;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#frontseatView{
+
+  padding: 8px 20px;
+  outline: none;
+  background: #eb0101;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#exteriorView:hover{
+  background-color:#eb0101a6;
+}
+
+.selectGroup{
+  position: absolute;
+    display: flex;
+    right: 20px;
+    bottom: 20px;
+}
+
+.colorSelect{
+  padding: 8px 30px;
+    outline: none;
+    border-radius: 5px;
+    background: #302d2d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.colorSelect:focus{
+  border: 1px solid #eb0101;
+}
+.colorSelect:hover{
+  border: 1px solid #eb0101;
+}
