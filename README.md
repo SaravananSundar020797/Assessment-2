@@ -40,12 +40,13 @@ ONE3D.init("one3d", "Path" + "one3d/assets/", `ONE3D_Model_ID`, `ONE3D_Variant_I
 
 Cmd  Run 
 
-''''
+````
 npx vite
 
-npx Serve
+(or)
 
-''''
+npx Serve
+````
 
 
 
