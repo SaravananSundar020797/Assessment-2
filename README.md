@@ -36,6 +36,17 @@ ONE3D.init("one3d", "Path" + "one3d/assets/", `ONE3D_Model_ID`, `ONE3D_Variant_I
   
 ````
 
+## Important 
+
+Cmd  Run 
+
+''''
+npx vite
+
+npx Serve
+
+''''
+
 
 
 
