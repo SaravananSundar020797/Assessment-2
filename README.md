@@ -48,7 +48,21 @@ npx vite
 npx Serve
 ````
 
+## Cdn Path -> Your Local CDN Path
 
+```
+var script = document.createElement("script");
+script.src = "'CDN PATH'/one3d/assets/`ONE3D_MODEL_ID`/one3d_functions.min.js";
+script.type = "text/javascript";
+script.onload = function () {
+//Callback on file load
+//Call ONE3D.init('div_id','URL',`ModelName`,`VariantName`,{})
+};
+document.getElementsByTagName("head")[0].appendChild(script);
+
+````
+
+![alt text](image-1.png)
 
 
 
